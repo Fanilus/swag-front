@@ -1,0 +1,47 @@
+/**
+
+ /**
+   FONTS
+  */
+
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('./assets/fonts/SuisseIntl-Regular.eot');
+  src: url('./assets/fonts/SuisseIntl-Regular.eot') format('embedded-opentype'),
+    url('./assets/fonts/SuisseIntl-Regular.woff2') format('woff2'),
+    url('./assets/fonts/SuisseIntl-Regular.woff') format('woff'),
+    url('./assets/fonts/SuisseIntl-Regular.ttf') format('truetype'),
+    url('./assets/fonts/SuisseIntl-Regular.svg') format('svg');
+}
+
+/**
+   CORE
+  */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Suisse Intl', sans-serif !important;
+}
+
+iframe {
+  display: none;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.2px;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
