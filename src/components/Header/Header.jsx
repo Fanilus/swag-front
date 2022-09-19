@@ -8,7 +8,7 @@ import Box from '@mui/material/Box';
 
 const Header = () => {
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1 }} id={'app_bar'}>
       <AppBar position="static">
         <HeaderToolbar>
           <HeaderRoutes visible={true}>
